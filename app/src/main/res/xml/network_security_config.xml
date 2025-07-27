@@ -1,0 +1,9 @@
+<!-- res/xml/network_security_config.xml -->
+<network-security-config>
+    <!-- 允许 HTTP（仅调试） -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" /> <!-- 仍然信任系统证书 -->
+        </trust-anchors>
+    </base-config>
+</network-security-config>
